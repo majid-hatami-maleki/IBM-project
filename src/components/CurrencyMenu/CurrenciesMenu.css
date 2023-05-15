@@ -1,0 +1,62 @@
+.CurrenciesMenu {
+  width: 300px;
+  background-color: #93e499;
+  list-style-type: none;
+  position: relative;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+.CurrenciesMenu-title-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+  text-transform: capitalize;
+}
+.CurrenciesMenu-title-staticTitle {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+}
+.CurrenciesMenu-openMenu-btn {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+  cursor: pointer;
+  font-size: 30px;
+  border: 1px solid transparent;
+  color: white;
+}
+.CurrenciesMenu-submenu {
+  width: 100%;
+  position: absolute;
+  background-color: #93e499;
+  list-style-type: none;
+  left: 0;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /*display flex*/
+  border-radius: 5px;
+  z-index: 99;
+  color: black;
+  gap: 10px;
+}
+.CurrenciesMenu-submenu-items {
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+}
+.CurrenciesMenu-submenu-items:hover {
+  background-color: white;
+}

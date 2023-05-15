@@ -1,6 +1,7 @@
 import React from 'react'
 import './BudgetContainer.css'
 import BudgetInfoBoxes from '../budgetBoxes/BudgetInfoBoxes'
+import CurrenciesMenu from '../CurrencyMenu/CurrenciesMenu'
 function BudgetContainer() {
     return (
         <div className='BudgetContainer'>
@@ -25,6 +26,7 @@ function BudgetContainer() {
                     <span className='budget-items-valuePart-value'>960</span>
                 </div>
             </BudgetInfoBoxes>
+            <CurrenciesMenu></CurrenciesMenu>
         </div>
     )
 }

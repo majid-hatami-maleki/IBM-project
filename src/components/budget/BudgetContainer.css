@@ -1,0 +1,41 @@
+.BudgetContainer {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  /*display flex*/
+}
+.budget-items {
+  width: 300px;
+}
+.budget-items-title {
+  text-transform: capitalize;
+}
+.budget-items-inputs {
+  width: 100px;
+  border: none;
+  padding: 5px;
+}
+.budget-items-valuePart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+  /*display flex*/
+}
+.budget-items-valuePart-value {
+  padding: 5px;
+}
+.budget-item1 {
+  color: #696969;
+}
+.budget-item2 {
+  color: #178b17;
+}
+.budget-item3 {
+  color: #1b7aa7;
+}

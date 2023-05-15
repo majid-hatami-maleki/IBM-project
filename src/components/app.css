@@ -1,0 +1,17 @@
+.app-container {
+  width: 1260px;
+  padding: 10px;
+  background-color: white;
+}
+.app-title {
+  text-transform: capitalize;
+}
+.budgetBgCol {
+  background-color: #c5c6c7;
+}
+.remainingBgCol {
+  background-color: #bfdfd1;
+}
+.spentSoFarBgCol {
+  background-color: #c6dcfd;
+}

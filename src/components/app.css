@@ -2,6 +2,12 @@
   width: 1260px;
   padding: 10px;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /*display flex*/
+  gap: 30px;
 }
 .app-title {
   text-transform: capitalize;

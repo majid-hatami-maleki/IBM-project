@@ -1,0 +1,9 @@
+.AddAllocation-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /*display flex*/
+  gap: 5px;
+}

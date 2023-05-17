@@ -4,10 +4,14 @@ export const AllContext = createContext()
 
 const AllContextsProvider = ({ children }) => {
     const [openCurrMenu, setOpenCurrMenu] = useState(false)
-    const [currencyUnite, setCurrencyUnite] = useState('dollar')
+    const [currencyUnite, setCurrencyUnite] = useState('Dollar')
     function changeCurrencyValueHandler(e) {
         setCurrencyUnite(e.target.id)
     }
+    const [budgetInput, setBudgetInput] = useState(0)
+    const [newAllocate, setNewAllocate] = useState({})
+
+    const departmentList = ['marketing', 'finance', 'sales', 'human resource', 'IT']
     return (
         <AllContext.Provider value={{
             openCurrMenu,
@@ -15,6 +19,11 @@ const AllContextsProvider = ({ children }) => {
             currencyUnite,
             changeCurrencyValueHandler,
             setCurrencyUnite,
+            departmentList,
+            budgetInput,
+            setBudgetInput,
+            newAllocate,
+            setNewAllocate
         }}>
             {children}
         </AllContext.Provider>

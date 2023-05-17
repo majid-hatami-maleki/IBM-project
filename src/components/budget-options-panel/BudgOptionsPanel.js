@@ -12,7 +12,15 @@ function BudgOptionsPanel() {
                 <p>budget : </p>
                 <div>
                     <span><CurrencySigns /></span>
-                    <input type="number" />
+                    <input type="number"
+                        onChange={(e) => {
+                            if (e.target.value < 0) e.target.value = 0
+                            if (e.target.value > 2000) e.target.value = 2000
+                            fetchContexts.setBudgetInput(e.target.value)
+                            console.log(fetchContexts.budgetInput)
+                        }}
+                        value={fetchContexts.budgetInput}
+                    />
                 </div>
             </li>
             <li className='BudgOptionsPanel-items remainingBoxBgColors'>

@@ -1,4 +1,59 @@
 .AllosTable-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /*display flex*/
 }
 .AllosTable-title {
+  text-transform: capitalize;
+}
+.AllosTable-list-menu {
+  width: 100%;
+}
+.AllosTable-list-items {
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+  padding: 10px;
+}
+.AllosTable-list-items button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+  border-radius: 50%;
+  border: 1px solid transparent;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.AllosTable-list-items button:hover {
+  transform: scale(1.2);
+}
+.AllosTable-list-items section {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+}
+.increase-alloBudg-btn {
+  background-color: #07b868;
+  color: white;
+}
+.decrease-alloBudg-btn {
+  background-color: red;
+  color: white;
+}
+.remove-allBudg-item-btn {
+  background-color: black;
+  color: white;
 }

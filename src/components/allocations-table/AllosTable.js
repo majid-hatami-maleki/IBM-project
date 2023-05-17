@@ -2,6 +2,7 @@ import React from 'react'
 import './allocationTable.css'
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai'
 import { MdOutlineClose } from 'react-icons/md'
+import CurrencySigns from '../currency-signs/CurrencySigns'
 function AllosTable() {
     return (
         <div className='AllosTable-container'>
@@ -29,7 +30,7 @@ function AllosTable() {
                         <span>marketing</span>
                     </section>
                     <section>
-                        <span>$</span><span>50</span>
+                        <span><CurrencySigns /></span><span>50</span>
                     </section>
                     <section>
                         <button className='increase-alloBudg-btn'><AiOutlinePlus /></button>

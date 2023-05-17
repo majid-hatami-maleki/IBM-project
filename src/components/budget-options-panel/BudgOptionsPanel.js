@@ -3,6 +3,7 @@ import './BudgOptionsPanel.css'
 import CurrencySigns from '../currency-signs/CurrencySigns'
 import { RiArrowDownSFill } from 'react-icons/ri'
 import { AllContext } from '../../contexts/allContexts'
+import { BsCurrencyDollar, BsCurrencyEuro, BsCurrencyPound, BsCurrencyRupee } from 'react-icons/bs'
 function BudgOptionsPanel() {
     const fetchContexts = useContext(AllContext)
     return (
@@ -44,23 +45,23 @@ function BudgOptionsPanel() {
                             <ul className='currency-subMenu'>
                                 <li
                                     onClick={fetchContexts.changeCurrencyValueHandler}
-                                    id='dollar'>
-                                    $ dollar
+                                    id='Dollar'>
+                                    <BsCurrencyDollar /> dollar
                                 </li>
                                 <li
                                     onClick={fetchContexts.changeCurrencyValueHandler}
-                                    id='euro'>
-                                    $ euro
+                                    id='Euro'>
+                                    <BsCurrencyEuro /> euro
                                 </li>
                                 <li
                                     onClick={fetchContexts.changeCurrencyValueHandler}
-                                    id='pound'>
-                                    $ pound
+                                    id='Pound'>
+                                    <BsCurrencyPound /> pound
                                 </li>
                                 <li
                                     onClick={fetchContexts.changeCurrencyValueHandler}
-                                    id='rupee'>
-                                    $ rupee
+                                    id='Rupee'>
+                                    <BsCurrencyRupee /> rupee
                                 </li>
                             </ul>
                         )}

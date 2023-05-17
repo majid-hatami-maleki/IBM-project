@@ -1,0 +1,14 @@
+.app-container {
+  width: 1200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  /*display flex*/
+  padding: 10px;
+}
+.app-title {
+  text-transform: capitalize;
+}

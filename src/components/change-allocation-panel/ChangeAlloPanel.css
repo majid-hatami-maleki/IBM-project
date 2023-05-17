@@ -1,0 +1,44 @@
+.ChangeAlloPanel-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+  gap: 15px;
+}
+.ChangeAlloPanel-parts {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+}
+.ChangeAlloPanel-parts span,
+.ChangeAlloPanel-parts select {
+  width: 100%;
+  text-transform: capitalize;
+  padding: 10px;
+}
+.ChangeAlloPanel-parts span {
+  background-color: silver;
+  text-align: center;
+  border-radius: 5px;
+}
+.ChangeAlloPanel-parts input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.ChangeAlloPanel-save-btn {
+  border-radius: 0px 5px 5px 0px;
+  background-color: rgb(0, 81, 255);
+  color: white;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.ChangeAlloPanel-menus {
+}

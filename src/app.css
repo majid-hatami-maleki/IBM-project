@@ -12,3 +12,6 @@
 .app-title {
   text-transform: capitalize;
 }
+.app-container h2 {
+  text-transform: capitalize;
+}

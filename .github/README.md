@@ -2,7 +2,7 @@
 
 # IBM last exam project for React.js
 ## this is the final exam of [Coursera][coursera-url] website for react.js course
-### also you can check my certificate from this link : [IBM-certificate][ibm-certificate-url]
+### also you can check my certificate from this link : [IBM react.js certificate][ibm-certificate-url]
 
 ## Installation
 To install this project, follow these steps:

@@ -2,7 +2,7 @@
 
 # IBM last exam project for React.js
 ## this is the final exam of [Coursera][coursera-url] website for react.js course
-### also you can check my certificate from this link : https://www.coursera.org/account/accomplishments/verify/KJA3NDMWQ3Q8
+### also you can check my certificate from this link : ![IBM-certificate][ibm-certificate-url]
 
 ## Installation
 To install this project, follow these steps:
@@ -29,4 +29,5 @@ To install this project, follow these steps:
 [gmail-shield]: https://img.shields.io/badge/Gmail-email?logo=gmail&logoColor=white&labelColor=%23D02C1F&color=%23D02C1F
 [gmail-url]: mailto:majidhatamimalekii@gmail.com
 [coursera-url]: https://www.coursera.org/
+[ibm-certificate-url]:https://www.coursera.org/account/accomplishments/verify/KJA3NDMWQ3Q8
 
